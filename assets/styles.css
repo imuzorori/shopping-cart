@@ -1,0 +1,208 @@
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("king.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(228, 238, 238);
+    }
+    /*navbar styles*/
+    
+    #navbar {
+        background-color: rgb(8, 8, 8);
+        margin-top: 0;
+        display: flex;
+        height: 60px;
+        width: 100%;
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        text-transform: capitalize;
+        flex: 1;
+        margin-left: 100px;
+        margin-top: 15px;
+        color: rgb(256, 256, 250);
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #navbar a:hover {
+        background-color: rgba(240, 240, 240, 0.60);
+        text-align: center;
+        color: rgba(245, 204, 204, 0.938);
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+        box-shadow: 2px 3px;
+    }
+    /*end of navbar styles*/
+    /*content*/
+    
+    .welcome {
+        display: flex;
+    }
+    
+    .welcome p {
+        margin: 10px;
+        flex: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 25px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 5px;
+    }
+    
+    .heading {
+        font-size: 20px;
+        font-style: italic;
+        color: rgba(7, 7, 10, 0.801);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .photos {
+        display: flex;
+    }
+    
+    .images {
+        width: 25%;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .images img {
+        width: 255px;
+        height: 250px;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .images h3 {
+        text-align: center;
+    }
+    /*content*/
+    /*footer styles*/
+    
+    .footer {
+        background-color: rgba(7, 7, 10, 0.801);
+    }
+    
+    .footer_content {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    
+    .footer_content .other_links {
+        width: 33.33%;
+        margin: 5px;
+    }
+    
+    .footer_content .other_links h2 {
+        color: rgb(256, 256, 250);
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+    }
+    
+    .footer_content .other_links ol li {
+        margin: 10px;
+        list-style: none;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .footer_content .other_links ol li a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 15px;
+        color: rgba(122, 122, 247, 0.699);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #icons {
+        display: inline-block;
+    }
+    
+    #icons i {
+        font-size: 18px;
+        color: rgba(122, 122, 247, 0.699);
+    }
+    
+    .coypright {
+        background-color: rgba(7, 7, 10, 0.801);
+        height: 45px;
+    }
+    
+    #rights {
+        color: beige;
+        padding-top: 15px;
+        text-transform: capitalize;
+    }
+    /*end of footer*/
+    /*products desing*/
+    
+    .product_list {
+        display: flex;
+        width: 100%;
+    }
+    
+    .product {
+        width: 20%;
+        margin: 10px;
+    }
+    
+    .product img {
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    
+    .product p {
+        text-transform: capitalize;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: rgba(3, 30, 34, 0.6);
+    }
+    
+    .product button {
+        background-color: rgb(8, 8, 8);
+        color: white;
+        border-radius: 5px;
+        height: 30px;
+        text-transform: capitalize;
+    }
+    /*contact styles*/
+    
+    .contact_form {
+        margin: 0;
+    }
+    
+    .form_contact {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_contact label {
+        margin: 20px;
+    }
+    
+    .form_contact label input {
+        margin: 10px;
+        height: 30px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .form_contact label textarea {
+        width: 350px;
+    }
